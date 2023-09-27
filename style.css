@@ -283,11 +283,11 @@ header img{
 
 
 .aula_exp{
-    width: 99.5%;
+    width: 95%;
     height: 300px;
     margin: auto;
     border-radius: 20px;
-    background-color: #428bca;
+    background-color: #579eec;
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
@@ -333,6 +333,26 @@ header img{
 }
 
 
+/* footer */
+
+footer{
+    width: 100%;
+    display: flex;
+}
+
+#cont{
+    width: 100%;
+    display: flex;
+    
+}
+
+.logo{
+    width: 100px;
+}
+
+.icon{
+    width: 50px;
+}
 
 
 
