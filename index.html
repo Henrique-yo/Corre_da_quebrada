@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola de lutas Ricardo Pit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo escola de_luta.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="css/gallery.theme.css">
+    <link rel="stylesheet" href="css/gallery.min.css">
+
+
+
+
+
+</head>
+<body onresize="mudouTamanho()">
+
+    <!-- header -->
+     <header class="header">
+         <img src="./img/logo escola de_luta.png" alt="">
+        <i class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="menu">
+            <ul class="nav">
+                <li class="li"><a href="#">Home</a></li>
+                <li class="li"><a href="#">Horarios e valores</a></li>
+                <li class="li"><a href="#">Sobre</a></li>
+                <li class="li"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <!-- slider -->
+
+    <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <img src="img/ginasio2.jpg">
+                
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="img/alunos2.jpg">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="img/alunos.jpg">
+            </div>
+            
+
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            
+            
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+                
+            </ol>
+        </div>
+    </div>
+
+    <!-- conteudo -->
+
+   <main>
+        <section class="titulo">
+            <h1>Modalidades</h1>
+        </section>
+        <section id="cont_main">
+            <div class="modalidades" >
+                <h4>MuayThai</h4>
+            </div>
+            <div class="modalidades">
+                <h4>Jiu jitsu</h4>
+            </div>
+            <div class="modalidades">
+                <h4>funcional</h4>
+            </div>
+            <div class="modalidades">
+                <h4>MuayThai Kids</h4>
+            </div>
+            <div class="modalidades">
+                <h4>Jiu jitsu Kids</h4>
+            </div>
+            <div class="modalidades">
+                <h4>MMA</h4>
+            </div>
+        </section>
+
+        <section class="aula_exp">
+            <div class="aula_exp_txt">
+                <h1>
+                    Venha <br> <span>fazer</span> <br> <span>parte</span>
+                </h1>
+            </div>
+            <div id="contato">
+                <p>
+                    Marque uma aula experimental
+                </p>
+                
+                <a href="" class="btn_whtz"> <iconify-icon icon="mdi:whatsapp" style="color: white;" width="40" height="40"></iconify-icon>  (11) 1111-1111</a>
+            </div>
+        </section>
+
+
+   </main>
+
+
+
+
+
+   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
