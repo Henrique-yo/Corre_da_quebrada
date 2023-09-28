@@ -217,6 +217,15 @@ header img{
 /* main/conteudo */
 
 
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .titulo{
     font-size: 30px;
     margin-left: 5%;
@@ -227,9 +236,12 @@ header img{
 }
 
 #cont_main{
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    
 }
 
 .modalidades{
