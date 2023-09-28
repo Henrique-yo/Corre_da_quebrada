@@ -217,7 +217,7 @@ header img{
 /* main/conteudo */
 
 
-main{
+#cont_conteudo{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -236,7 +236,7 @@ main{
 }
 
 #cont_main{
-    width: 70%;
+    max-width: 1390px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
