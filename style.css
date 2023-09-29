@@ -749,3 +749,12 @@ footer{
     
 }
 } 
+
+@media (min-width: 425px){
+    #contato {
+        text-align: center;
+    }
+    .aula_exp_txt{
+        display: none;
+    }
+}

@@ -18,6 +18,7 @@
 
 }
 html {
+    width: 100%;
      font-size: 62.5%;
   }
   body {
@@ -26,6 +27,8 @@ html {
   }
 
 .header{
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,21 +188,29 @@ main{
 
 /* main/conteudo page contato */
 
-
+.loc{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+}
 
 .local h1{
     font-size: 60px;
     font-family: 'Muro-Slant';
     text-align: center;
-    margin: 40px;
 }
 
 .local img{
-    margin-right: 10px;
+    
     border-radius: 10px;
+    margin: auto;
 }
 
 .local iframe{
+    margin-left: 10px;
+    margin-top: 10px;
     border-radius: 10px;
 }
 .local img:hover{
@@ -212,6 +223,7 @@ main{
 #contato{    
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     text-align: center;
 }
@@ -220,6 +232,7 @@ main{
     
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 20px;
    
