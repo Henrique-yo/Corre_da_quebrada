@@ -750,11 +750,14 @@ footer{
 }
 } 
 
-@media (min-width: 425px){
+@media (max-width: 425px){
     #contato {
         text-align: center;
     }
     .aula_exp_txt{
+        display: none;
+    }
+    #cont_img img{
         display: none;
     }
 }
