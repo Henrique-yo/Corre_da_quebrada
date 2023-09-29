@@ -203,17 +203,16 @@ main{
 }
 
 .local img{
-    
     border-radius: 10px;
     margin: auto;
 }
 
 #p_local{
+    text-align: center;
     width: 100%;
 }
 
 .local iframe{
-    width: 100%;
     margin-left: 10px;
     margin-top: 10px;
     border-radius: 10px;
@@ -293,29 +292,6 @@ main{
     background-color: #2BB741;
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer */
@@ -400,4 +376,11 @@ footer{
     .local iframe{
         display: none;
     }
+    .local img{
+    width: 90%;
+    }
+    #p_local{
+        width: 90%;
+    }
+    
 }
