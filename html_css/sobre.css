@@ -374,7 +374,7 @@ footer{
 
 @media (max-width: 425px){
     .local iframe{
-        display: none;
+        width: 90%;
     }
     .local img{
     width: 90%;
