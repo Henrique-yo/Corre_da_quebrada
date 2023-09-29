@@ -354,6 +354,7 @@ header img{
 
 /* main/conteudo pagina hoorarios */
 
+
 #cont_img{
     display: flex;
     flex-direction: row;
@@ -372,7 +373,9 @@ header img{
 }
 
 .container{
-    background-color: #151515;
+    background-color: #111111;
+    overflow-x: hidden;
+
 }
 
 body{margin-top:20px;}
