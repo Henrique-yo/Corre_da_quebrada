@@ -36,8 +36,8 @@ html {
     
 }
 header img{
-    width: 100px;
-    margin-left: 20px;
+    width: 120px;
+    margin-left: 8%;
 }
 .material-icons {
     display: none;
@@ -93,6 +93,46 @@ header img{
 
 
 /* slider  */
+
+#tex_carrosel{
+    width: 500px;
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+    font-size: 30px;
+    background-color: #111111a2;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 1440px){
+    #tex_carrosel{
+        width: 400px;
+        right: 120px;
+        bottom: 120px;
+        background-color: #111111a2;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: justify;
+    }
+}
+@media (max-width: 425px){
+    #tex_carrosel{
+        width: 300px;
+        left: 40px;
+        bottom: 120px;
+        background-color: #111111a2;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: justify;
+    }
+}
 
 
 .carousel {
@@ -297,17 +337,20 @@ header img{
 
 .aula_exp{
     width: 95%;
+    max-width: 1500px;
     height: 300px;
     margin: auto;
     border-radius: 20px;
-    background-color: #082292;
-    display: flex;
-    justify-content: space-evenly;
+    background-color: rgb(42, 42, 42);
+    box-shadow: -1px 0px 118px 23px rgba(87, 87, 87, 0.47);
+    text-align: center;
     margin-top: 30px;
-}
-.aula_exp_txt{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aula_exp_txt{
     font-size: 50px;
     letter-spacing: 2px;
     font-family: "Racing Sans One", Sans-serif;
@@ -349,6 +392,8 @@ header img{
 .btn_whtz:hover{
     background-color: green;
     color: #fff;
+    transform: scale(1.1);
+    transition: all .5s;
 }
 
 
@@ -681,8 +726,11 @@ footer{
 
 }
 
+
+
 #cont{
     width: 100%;
+    max-width: 1500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -694,7 +742,7 @@ footer{
 
 .logo{
     width: 200px;
-    margin-left: 20px;
+    margin-left:5%;
     
 }
 .icon{
@@ -708,7 +756,7 @@ footer{
 }
 
 .icon img:hover{
-    width: 85px;
+    width: 80px;
     transition: all 0.5s;
 }
 

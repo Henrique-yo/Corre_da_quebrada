@@ -26,9 +26,7 @@ html {
     background-color: #111111;
   }
 
-.header{
-    width: 100%;
-    height: auto;
+  .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,8 +37,8 @@ html {
     
 }
 header img{
-    width: 100px;
-    margin-left: 20px;
+    width: 120px;
+    margin-left: 8%;
 }
 .material-icons {
     display: none;
@@ -90,7 +88,8 @@ header img{
 
 .header nav ul li{
     padding: 0.5rem;
-}
+} 
+
 
 /* main/conteudo */
 main{
@@ -99,36 +98,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-.cont_valores{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    background-color: #ebe1e1;
-    color: #111111;
-}
-.valores{
-    width: 300px;
-    margin: 10px;
-    
-}
-.valores p{
-   text-align: justify;color: #111111;
-   font-family: "Racing Sans One", Sans-serif;
-   font-size: 20px;
-}
 
-.valores h1{
-    text-align: center;
-    font-family: 'Muro-Slant';
-    font-size: 40px;
-    letter-spacing: 1px;
-    font-size: 60px;
-    font-weight: bolder;
-    margin: 20px 0 30px;
-    color: #111111;
-}
 
 .titulo h1{
     text-align: center;
@@ -191,18 +161,20 @@ main{
 .loc{
     display: flex;
     justify-content: center;
+    
     flex-wrap: wrap;
     margin-top: 40px;
     
 }
 
 .local h1{
-    font-size: 60px;
+    font-size: 90px;
     font-family: 'Muro-Slant';
     text-align: center;
 }
 
 .local img{
+    width: 700px;
     border-radius: 10px;
     margin: auto;
 }
@@ -213,8 +185,8 @@ main{
 }
 
 .local iframe{
+    width: 700px;
     margin-left: 10px;
-    margin-top: 10px;
     border-radius: 10px;
 }
 .local img:hover{
@@ -237,19 +209,20 @@ main{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
    
 }
 
 #contato h1{    
-    font-size: 60px;
+    font-size: 90px;
     font-family: 'Muro-Slant';
     text-align: center;
     margin: 40px;
 }   
 #contato h3{    
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Muro-Slant';
     
     margin: 20px;
@@ -257,8 +230,8 @@ main{
     letter-spacing: 1px;
 }   
 #contato p{    
-    width: 300px;
-    font-size: 20px;
+    width: 400px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Muro-Slant';
     text-align: center;
@@ -270,14 +243,14 @@ main{
 }
 
 #whatsapp{
-    width: 300px;
-    height: 70px;
+    width: 350px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     background-color:  #25D366;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 10px;
     text-decoration: none;
   
@@ -294,16 +267,23 @@ main{
 }
 
 
+
+
 /* footer */
 
 footer{
     width: 100%;
     display: flex;
+    margin-top: 50px;
     border-top: 0.2rem solid red;
+
 }
+
+
 
 #cont{
     width: 100%;
+    max-width: 1500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -315,7 +295,7 @@ footer{
 
 .logo{
     width: 200px;
-    margin-left: 20px;
+    margin-left:5%;
     
 }
 .icon{
@@ -329,12 +309,120 @@ footer{
 }
 
 .icon img:hover{
-    width: 85px;
+    width: 80px;
     transition: all 0.5s;
 }
 
 
-
+@media (max-width: 1440px){
+    .loc{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        padding: 10px;
+        
+    }
+    
+    .local h1{
+        font-size: 60px;
+        font-family: 'Muro-Slant';
+        text-align: center;
+    }
+    
+    .local img{
+        width: 540px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    
+    #p_local{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .local iframe{
+        width: 500px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+    .local img:hover{
+        transform: scale(1.060);
+        transition: all 0.5s;
+    }
+    
+    
+    
+    #contato{    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #cont_contatos{
+        
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+    }
+    
+    #contato h1{    
+        font-size: 60px;
+        font-family: 'Muro-Slant';
+        text-align: center;
+        margin: 40px;
+    }   
+    #contato h3{    
+        font-size: 40px;
+        font-family: 'Muro-Slant';
+        
+        margin: 20px;
+        
+        letter-spacing: 1px;
+    }   
+    #contato p{    
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Muro-Slant';
+        text-align: center;
+        margin: 20px;
+    } 
+    
+    .contatos span{
+        color: #2BB741;
+    }
+    
+    #whatsapp{
+        width: 300px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background-color:  #25D366;
+        font-size: 30px;
+        margin-top: 10px;
+        text-decoration: none;
+      
+            
+    }
+    #whatsapp a{
+        text-decoration: none;
+        display: flex;
+    
+    }
+    #whatsapp:hover{
+        background-color: #2BB741;
+        color: #fff;
+    }
+}
 
  @media (max-width: 768px) {
     .header, .nav{ 
